@@ -1,0 +1,4 @@
+# Ignore datasets
+Data/
+# Ignore virtual environment
+footenv/
