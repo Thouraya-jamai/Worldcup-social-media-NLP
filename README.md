@@ -11,5 +11,5 @@ This project explores social media discussions around the 2018 and 2022 FIFA Wor
 - Data cleaning performed
 
 ## Next Steps
-- Feature engineering
 - NLP preprocessing
+
