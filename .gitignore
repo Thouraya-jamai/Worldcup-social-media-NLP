@@ -2,3 +2,7 @@
 Data/
 # Ignore virtual environment
 footenv/
+#ignore models
+models/
+#ignore results
+results
