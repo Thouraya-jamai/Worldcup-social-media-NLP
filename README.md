@@ -18,20 +18,40 @@ that answers those questions:
 
 
 ## Work Completed
-- Dataset downloaded (World Cup 2018 & 2022 tweets)
-- Project structure initialized
-- Virtual environment created
-- Exploratory Data Analysis (EDA) performed
-- Data cleaning performed
-- Text preprocessing applied to the datasets, including:
-  - Noise removal (URLs, mentions, punctuation, extra spaces)
-  - Tokenization
-  - Stopword removal
-  - Lemmatization
-  - Text representation by TF-IDF
+  # Data & Setup
+  - Collected datasets for FIFA World Cup 2018 & 2022 tweets
+  - Initialized structured project architecture
+  - Set up virtual environment for reproducibility
+  # Data Exploration & Cleaning
+   - Exploratory Data Analysis (EDA)
+   - Text cleaning pipeline:
+      - Removal of URLs, mentions, punctuation, and noise
+      - Tokenization
+      - Stopword removal
+      - Lemmatization
+  # Text Representation
+  - Implemented TF-IDF vectorization
+  - Converted tweets into numerical representations for modeling
+  # Topic Modeling (NMF)
+  - Applied Non-negative Matrix Factorization (NMF) for topic discovery
+  - Extracted latent topics from tweet corpus
+
+    * Observations:
+      - Number of topics must be manually defined
+      - Some topics contain noisy or unrelated words
+      - Interpretation requires manual inspection
+      - Topics are not always semantically coherent due to TF-IDF limitations
+  # Topic Labeling
+    - Applied KeyBERT for automatic keyword extraction
+    - Generated initial topic labels based on representative keywords
+
+      * Observations:
+        - KeyBERT provides keywords but not fully semantic topic names
+        - Manual interpretation is still required for final labeling
+  
 
 ## Next Steps
-- Modeling
+  - Implement BERTopic for improved semantic topic modeling
 
 
 
